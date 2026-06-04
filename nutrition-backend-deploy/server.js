@@ -14,7 +14,7 @@ app.use(cors({
   origin: [
     'http://localhost:3000', 
     'http://localhost:5173', // Local development
-    process.env.FRONTEND_URL || 'https://nutrivision.vercel.app', // URL frontend production
+    process.env.FRONTEND_URL || 'https://front-end-rho-lime.vercel.app/', // URL frontend production
     /\.vercel\.app$/ // Allow all Vercel subdomains
   ], 
   credentials: true
